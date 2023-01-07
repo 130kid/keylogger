@@ -22,7 +22,7 @@ def trapped(s):
 
 
 if __name__ == "__main__":
-    ip = "fun-moved.at.ply.gg"
+    ip = "127.0.0.1"
     port = 4444
     s = set_sock(ip , port)
     trapped(s)
